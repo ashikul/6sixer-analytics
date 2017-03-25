@@ -21,6 +21,8 @@ import { PieChartService } from './pieChart/pieChart.service';
 import { TodoService } from './todo/todo.service';
 import { TrafficChartService } from './trafficChart/trafficChart.service';
 import { UsersMapService } from './usersMap/usersMap.service';
+import { ChartistJsService} from '../charts/components/chartistJs/chartistJs.service'
+import { ChartistJs} from '../charts/components/chartistJs/chartistJs.component'
 
 @NgModule({
   imports: [
@@ -38,7 +40,8 @@ import { UsersMapService } from './usersMap/usersMap.service';
     Feed,
     Todo,
     Calendar,
-    Dashboard
+    Dashboard,
+    ChartistJs
   ],
   providers: [
     CalendarService,
@@ -47,7 +50,8 @@ import { UsersMapService } from './usersMap/usersMap.service';
     PieChartService,
     TodoService,
     TrafficChartService,
-    UsersMapService
+    UsersMapService,
+    ChartistJsService
   ]
 })
 export class DashboardModule {}
