@@ -1,9 +1,9 @@
 {
-  "name": "ng2-admin",
+  "name": "Beer Hackaton",
   "version": "0.9.0",
-  "description": "Angular 2 and Bootstrap 4 Admin Template.",
+  "description": "Beer Hackaton",
   "author": "akveo",
-  "homepage": "http://akveo.github.io/ng2-admin/",
+  "homepage": "Beer Hackaton",
   "license": "MIT",
   "dependencies": {
     "@angular/common": "2.4.9",
@@ -171,13 +171,6 @@
     "build:ci": "npm run build:prod && npm run build:aot",
     "gh": "git subtree push --prefix dist origin gh-pages"
 
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/akveo/ng2-admin.git"
-  },
-  "bugs": {
-    "url": "https://github.com/akveo/ng2-admin/issues"
   },
   "engines": {
     "node": ">= 5.4.1 < 7"
