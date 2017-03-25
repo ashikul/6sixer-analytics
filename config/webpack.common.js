@@ -25,8 +25,8 @@ const ngcWebpack = require('ngc-webpack');
 const HMR = helpers.hasProcessFlag('hot');
 const AOT = helpers.hasNpmFlag('aot');
 const METADATA = {
-  title: 'Analytics',
-  description: 'Analytics',
+  title: 'Beer Analytics',
+  description: 'Beer Analytics',
   baseUrl: './',
   isDevServer: helpers.isWebpackDevServer()
 };
