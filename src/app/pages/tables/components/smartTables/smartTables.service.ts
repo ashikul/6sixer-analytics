@@ -11,7 +11,10 @@ export class SmartTablesService {
       "beer_type_name": "Lager",
       "brand_name": "Bud Light",
       "sum(Volume)": 16.16,
-      "sum(price)": 150.45
+      "sum(price)": 150.45,
+      "weather": "sunny",
+      "events": "music",
+      "beer_rating": 0.0
     },
     {
       "External_id": 594287,
@@ -20,7 +23,10 @@ export class SmartTablesService {
       "beer_type_name": "IPA",
       "brand_name": "Alexander Keith's IPA",
       "sum(Volume)": 28.23,
-      "sum(price)": 225.6
+      "sum(price)": 225.6,
+      "weather": "sunny",
+      "events": "music",
+      "beer_rating": 0.0
     },
     {
       "External_id": 7001646,
@@ -29,7 +35,10 @@ export class SmartTablesService {
       "beer_type_name": "Blonde Ale",
       "brand_name": "Labatt 50",
       "sum(Volume)": 59.67,
-      "sum(price)": 444.85
+      "sum(price)": 444.85,
+      "weather": "sunny",
+      "events": "music",
+      "beer_rating": 5.0
     },
     {
       "External_id": 40790,
@@ -38,7 +47,10 @@ export class SmartTablesService {
       "beer_type_name": "Cream Ale",
       "brand_name": "St Ambroise Cream Ale",
       "sum(Volume)": 3.364,
-      "sum(price)": 44.77
+      "sum(price)": 44.77,
+      "weather": "sunny",
+      "events": "music",
+      "beer_rating": 0.0
     },
     {
       "External_id": 40790,
@@ -47,7 +59,10 @@ export class SmartTablesService {
       "beer_type_name": "Cream Ale",
       "brand_name": "St Ambroise Cream Ale",
       "sum(Volume)": 0.473,
-      "sum(price)": 6.52
+      "sum(price)": 6.52,
+      "weather": "windy",
+      "events": "music",
+      "beer_rating": 0.0
     },
     {
       "External_id": 7001823,
@@ -56,7 +71,10 @@ export class SmartTablesService {
       "beer_type_name": "Lager",
       "brand_name": "Budweiser",
       "sum(Volume)": 23.652,
-      "sum(price)": 160.4
+      "sum(price)": 160.4,
+      "weather": "rain",
+      "events": "music",
+      "beer_rating": 5.0
     },
     {
       "External_id": 1004914,
@@ -65,7 +83,10 @@ export class SmartTablesService {
       "beer_type_name": "Blonde Ale",
       "brand_name": "Laurentide",
       "sum(Volume)": 6.270,
-      "sum(price)": 148.77
+      "sum(price)": 148.77,
+      "weather": "snow",
+      "events": "fesitival",
+      "beer_rating": 5.0
     },
     {
       "External_id": 775907,
@@ -74,7 +95,10 @@ export class SmartTablesService {
       "beer_type_name": "Ale",
       "brand_name": "Archibald Chipie",
       "sum(Volume)": 0.591,
-      "sum(price)": 8.0
+      "sum(price)": 8.0,
+      "weather": "overcast",
+      "events": "political",
+      "beer_rating": 5.0
     }
   ];
 

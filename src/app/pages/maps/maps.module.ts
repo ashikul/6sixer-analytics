@@ -11,14 +11,15 @@ import { LeafletMaps } from './components/leafletMaps/leafletMaps.component';
 import { LineMaps } from './components/lineMaps/lineMaps.component';
 import { BubbleMapsService } from './components/bubbleMaps/bubbleMaps.service';
 import { LineMapsService } from './components/lineMaps/lineMaps.service';
-
+// import {SafePipe} from "./components/pipe/pipe";
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     NgaModule,
-    routing
+    routing,
+    // SafePipe
   ],
   declarations: [
     Maps,
