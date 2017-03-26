@@ -1,6 +1,7 @@
 import {Injectable} from '@angular/core';
 
 import {BaThemeConfigProvider} from '../../../../theme';
+import * as Chartist from 'chartist';
 
 @Injectable()
 export class ChartistJsService {
@@ -15,7 +16,7 @@ export class ChartistJsService {
       }
     },
     simpleLineData: {
-      labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+      labels: ['1/2', '1/3', '1/4', '1/5', '1/6'],
       series: [
         [20, 20, 12, 45, 50],
         [10, 45, 30, 14, 12],
@@ -70,13 +71,11 @@ export class ChartistJsService {
       height: '300px'
     },
     multiBarData: {
-      labels: ['Quarter 1', 'Quarter 2', 'Quarter 3', 'Quarter 4'],
+      labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4'],
       series: [
         [5, 4, 3, 7],
         [3, 2, 9, 5],
         [1, 5, 8, 4],
-        [2, 3, 4, 6],
-        [4, 1, 2, 1]
       ]
     },
     multiBarOptions: {
