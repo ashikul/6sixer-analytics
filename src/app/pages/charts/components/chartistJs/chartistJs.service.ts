@@ -25,9 +25,9 @@ export class ChartistJsService {
       ]
     },
     areaLineData: {
-      labels: [1, 2, 3, 4, 5, 6, 7, 8],
+      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
       series: [
-        [5, 9, 7, 8, 5, 3, 5, 4]
+        [5, 9, 7, 8, 5, 3, 5, 4, 8, 5, 3, 5]
       ]
     },
     areaLineOptions: {

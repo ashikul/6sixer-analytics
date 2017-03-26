@@ -1,9 +1,7 @@
 {
-  "name": "Beer Hackaton",
-  "version": "0.9.0",
-  "description": "Beer Hackaton",
-  "author": "akveo",
-  "homepage": "Beer Hackaton",
+  "name": "Beer-Hackathon",
+  "version": "0.1.0",
+  "author": "Ashikul Alam",
   "license": "MIT",
   "dependencies": {
     "@angular/common": "2.4.9",
@@ -24,6 +22,7 @@
     "bootstrap": "4.0.0-alpha.4",
     "chart.js": "1.1.1",
     "chartist": "0.10.1",
+    "chartist-plugin-legend": "^0.6.1",
     "ckeditor": "4.6.0",
     "core-js": "2.4.1",
     "easy-pie-chart": "2.1.7",
@@ -170,7 +169,6 @@
     "clean:aot": "npm run rimraf -- compiled",
     "build:ci": "npm run build:prod && npm run build:aot",
     "gh": "git subtree push --prefix dist origin gh-pages"
-
   },
   "engines": {
     "node": ">= 5.4.1 < 7"

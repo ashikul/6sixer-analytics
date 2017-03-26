@@ -14,6 +14,11 @@ export class SmartTables {
   query: string = '';
 
   settings = {
+    actions: {
+      add: false,
+      edit: false,
+      delete: false
+    },
     add: {
       addButtonContent: '<i class="ion-ios-plus-outline"></i>',
       createButtonContent: '<i class="ion-checkmark"></i>',
@@ -29,28 +34,32 @@ export class SmartTables {
       confirmDelete: true
     },
     columns: {
-      id: {
-        title: 'ID',
+      External_id: {
+        title: 'External_id',
         type: 'number'
       },
-      firstName: {
-        title: 'First Name',
+      nd: {
+        title: 'Date',
         type: 'string'
       },
-      lastName: {
-        title: 'Last Name',
+      name: {
+        title: 'Beer',
         type: 'string'
       },
-      username: {
-        title: 'Username',
+      beer_type_name: {
+        title: 'Beer Type',
         type: 'string'
       },
-      email: {
-        title: 'E-mail',
+      brand_name: {
+        title: 'Brand',
         type: 'string'
       },
-      age: {
-        title: 'Age',
+      'sum(Volume)': {
+        title: 'Volume',
+        type: 'number'
+      },
+      'sum(price)': {
+        title: 'Price',
         type: 'number'
       }
     }
